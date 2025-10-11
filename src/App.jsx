@@ -1,8 +1,17 @@
+import Header from "./components/Header.jsx";
+import Destaques from "./components/Destaques.jsx";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello, World!</h1>
-    </div>
+    <>
+      <Header />
+      <main style={{padding: "20px"}}>
+        <h2>Pagina principal</h2>
+        <p>Conteudo dos jogos</p>
+      </main>
+      <Destaques />
+    </>
   );
 }
+
 export default App;

@@ -1,0 +1,15 @@
+.section-container {
+  background-color: #171a21;
+  color: white;
+  padding: 20px 30px;
+}
+
+.section-container h2 {
+  margin-bottom: 15px;
+}
+
+.section-container .conteudo {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}

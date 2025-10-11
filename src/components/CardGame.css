@@ -1,0 +1,28 @@
+.card-game {
+  background-color: #1b2838;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  color: white;
+}
+
+.card-game img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.preco {
+  font-size: 14px;
+}
+
+.antigo {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.atual {
+  color: #66c0f4;
+  font-weight: bold;
+}

@@ -1,0 +1,41 @@
+.destaques {
+  color: white;
+  background-color: #171a21;
+  padding: 20px 30px;
+}
+
+.destaque-container {
+  display: flex;
+  gap: 20px;
+  background-color: #1b2838;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.destaque-container img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.destaque-info {
+  max-width: 400px;
+}
+
+.recomendados {
+  display: flex;
+  gap: 20px;
+}
+
+.recomendado-card {
+  background-color: #1b2838;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.recomendado-card img {
+  width: 100%;
+  border-radius: 8px;
+}

@@ -7,6 +7,8 @@ import Populares from "./components/Populares.jsx";
 function App() {
   return (
     <>
+      <h1>Cadastro</h1>
+      <Formulario/>
       <Header />
       <Destaques />
       <Descontos />

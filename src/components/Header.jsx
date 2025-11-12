@@ -1,17 +1,16 @@
-import "./Header.css";
+import { Link } from "react-router-dom";
 
-function Header() {
+export default function Header() {
   return (
     <header className="header">
       <h1 className="logo">Steam Clone</h1>
       <nav className="menu">
-        <a href="#">Loja</a>
-        <a href="#">Biblioteca</a>
-        <a href="#">Comunidade</a>
-        <a href="#">Perfil</a>
+        <Link to="/">Loja</Link>
+        <Link to="/biblioteca">Biblioteca</Link>
+        <Link to="/comunidade">Comunidade</Link>
+        <Link to="/perfil">Perfil</Link>
+        <Link to="/cadastro">Cadastro</Link>
       </nav>
     </header>
   );
 }
-
-export default Header;
